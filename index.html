@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="mainContainer">
+            <div class="childContainer">
+                <div class="heading">
+                    <h1>Text To Speech</h1>
+                </div>
+                <div class="content">
+                    <div class="textArea">
+                        <label for="enterText"><h3>Enter Text</h3></label>
+                        <textarea placeholder="Write something here...." name="Enter Text" id="text" cols="60" rows="10" style="resize: none"></textarea>
+                    </div>
+                    <div class="selectVoice">
+                            <label for="select voice"><h3>Select Voice</h3></label>
+                            <select name="select voice" id="voice">
+                                <!-- <option class="option" value="American English">American English</option> -->
+                                <!-- <option class="option" value="American English">American English</option>
+                                <option class="option" value="American English">American English</option>
+                                <option class="option" value="American English">American English</option> -->
+                            </select>
+                    </div>
+                    <div class="convertBtn">
+                        <button class="btn">Convert To Speech</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <script src="app.js" ></script>
+    </body>
+</html>
